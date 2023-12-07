@@ -1,0 +1,33 @@
+Library
+
+1. PIP
+	untuk menginstall ataupun uninstall package
+
+2. Conda
+	conda yang merupakan package manager dan environment manager untuk Python. Conda memungkinkan kita untuk membuat dan mengelola lingkungan (environment) terisolasi atau terpisah satu sama lain. Dengan terisolasinya setiap lingkungan tersebut, kita diuntungkan untuk mencegah konflik yang terjadi antar proyek. 
+	Conda sendiri dapat diinstal melalui Anaconda dan Miniconda. Anaconda merupakan sistem distribusi perangkat lunak yang di dalamnya mencakup Conda. Ketika menginstal Anaconda, Anda pun dapat menggunakan beberapa library dan plugin tambahan melalui Anaconda tersebut. Miniconda adalah versi ringan dari Anaconda. Miniconda hanya berisi conda dan beberapa package dasar yang diperlukan untuk menjalankannya.
+
+
+LIBRARY TEXT PROCESSING
+1. string
+2. regex
+	atau regular expression adalah sebuah cara untuk mencari teks berdasarkan pola tertentu. Umpamanya, ketika ingin mencari sebuah kata dalam kamus, misalnya arti dari kata parsing, kita akan mencari kata tersebut di halaman yang memiliki kata dengan awalan p, lalu pa. Regex bekerja dengan konsep yang sama -> import re # import regex
+
+
+LIBRARY MATEMATIKA
+1. math -> import math 
+
+
+LIBRARY PARSER
+	Argument parser bermanfaat jika kita ingin membuat program atau skrip kecil yang langsung menerima parameter pada saat pemanggilan program. Hal ini biasa digunakan dalam pemanggilan aplikasi atau skrip di CLI/terminal *nix-based, misalnya Linux dan MacOS. file parser1 dan 2
+
+LIBRARY PENGOLAHAN DATA
+1. Pandas
+	 library populer yang digunakan untuk pengelolaan dan analisis data. Library ini menyediakan struktur data dan alat untuk membantu pengguna dalam melakukan manipulasi, pembersihan, transformasi, dan analisis data dengan mudah dan efisien.
+2. Numpy
+	package fundamental yang sering digunakan untuk scientific computing pada Python. Library ini menyediakan objek array multidimensi, berbagai jenis objek lainnya, seperti masked array dan matrix, dan sebagainya.
+3. Matplotlib
+	 library untuk melakukan visualisasi data. python -m pip install -U matplotlib -> for install
+untuk visualisai data menurut variable x and y
+4. Seaborn
+	 jenis library dengan tujuan untuk visualisasi data sama seperti matplotlib. Bahkan library seaborn dibangun berdasarkan pada library matplotlib.

@@ -1,0 +1,10 @@
+using library in this project
+- numpy
+- unittest
+- array
+- argparse
+- flake8 -> linting
+- yapf -> memformat kode
+- pandas
+- matplotlib
+- seaborn

@@ -1,0 +1,16 @@
+Library dalam Python terdiri dari dua jenis:
+	1. Python Standard Library ->  jenis library yang telah terpasang secara otomatis ketika Anda melakukan instalasi Python. 
+	   Python Standard Library berisi kumpulan modul dan paket yang disertakan secara default oleh Python. 
+	   Paket (package) merupakan sebuah direktori berisi satu atau lebih modul yang terkait dan saling berhubungan.
+	2. External Library -> jenis library yang dikembangkan oleh individu atau organisasi di luar tim inti pengembang Python.
+
+PARAMATER
+Menurut dokumentasi resmi Python, ada 5 jenis parameter yang bisa kita atur. https://docs.python.org/3/glossary.html#term-parameter
+
+ Jika proses linting menghasilkan pesan dengan menunjukkan baris dan kode yang mengalami kesalahan, proses memformat kode akan memberikan pesan berupa kode yang telah diperbaiki. Ini artinya Anda tidak perlu mengubah kode secara manual.
+
+Library unittest mendukung sejumlah konsep penting yang berorientasi objek, antara lain berikut.
+
+	1. Test fixture merepresentasikan persiapan yang dibutuhkan untuk melakukan satu pengujian atau lebih serta proses pembersihannya (cleanup). Beberapa contohnya adalah menyiapkan basis data pengujian, direktori pengujian, atau mengaktifkan sebuah proses server.
+	2. Test case adalah sebuah unit dari pengujian ketika ia mengecek sejumlah respons dari sebagian kelompok masukan. unittest menyediakan basis class dan TestCase yang akan digunakan untuk membuat kasus pengujian baru.
+	3. Test suite adalah sebuah koleksi dari kasus-kasus pengujian, koleksi dari test suite itu sendiri, atau gabungan keduanya. Hal ini berguna untuk mengumpulkan pengujian-pengujian yang akan dieksekusi bersama
